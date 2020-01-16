@@ -1,329 +1,119 @@
-body {
-  margin: 0rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>David Gutzaluk</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <!-- Body -->
+  <body>
+    <div class="sp-wrapper1">
+      <div class="box-wrapper1">
+        <div class="nav-1 font-2">
+          <a class="now-link now-link:visited" href="#my-cv">cv</a>
+        </div>
+        <div class="nav-1 font-2">
+          <a class="now-link now-link:visited" href="#projects">projects</a>
+        </div>
+        <div class="nav-1 font-2">
+          <a class="now-link now-link:visited" href="#me">me</a>
+        </div>
+      </div>
+      <h1 class="main-wrapper font-1">
+        David <br />
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Gutzaluk
+      </h1>
+      <!-- <button class="font-h2">contact me</button> -->
+      <div class="button-wrapper">
+        <a class="font-button" href="#top-button">contact me</a>
+      </div>
+    </div>
+    <!-- me -->
+    <div class="sp-wrapper4">
+      <div class="image-wrapper2">
+        <h2 id="me" style="color: white; margin-top: 3vh;" class="font-h2">
+          <u>me</u>
+        </h2>
+        <div class="font-text2">- Insurance</div>
+        <div class="font-text2">- Sales</div>
+        <div class="font-text3">- Projektmanagement</div>
+        <div class="font-text2">- Web-development</div>
+      </div>
 
-.sp-wrapper1 {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  background-image: url(Lampe-klein.jpeg);
-  background-position-x: 80%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-direction: column;
-}
+      <div class="image-wrapper1">
+        <h2 style="color:black; margin-top: 3vh;" class="font-h2">
+          <u>hobbys</u>
+        </h2>
+        <div class="font-text5">- D1 Lacrosse-Player</div>
+        <div class="font-text4">- D2 Head Coach</div>
+      </div>
+    </div>
+    <!-- my cv -->
+    <div class="sp-wrapper2">
+      <h2 id="my-cv" class="font-h2"><u>my cv</u></h2>
+      <h3 class="font-h2" style="color: red;">work in progress</h3>
+      <div class="main-wrapper1">
+        <ol class="font-text liste">
+          <li>Senior Manager Makler-Region Ost - Leipzig</li>
+          <li>Selbständiger Versicherungsmakler - Leipzig</li>
+          <li>Direktionsbevollmächtigter Kompositversicherung - Berlin</li>
+          <li>Direktionsbeaftragter Sach-Versicherung - Magdeburg</li>
+          <li>Vertriebsunterstützung Innendienst in verschiedenen Bereichen</li>
+          <li>
+            Haftpflicht Underwriter – Deutsche Versicherungsakademie Hannover
+          </li>
+          <li>
+            Technischer Underwriter – Berufsbildungswerk der
+            Versicherungswirtschaft - Hannover
+          </li>
+          <li>Versicherungskaufmann Industrie und Handelskammer - Leipzig</li>
+        </ol>
+      </div>
+    </div>
+    <!-- projects  -->
+    <div class="sp-wrapper3">
+      <h2 id="projects" class="font-h2">
+        <u>projects</u>
+      </h2>
+      <h3 class="font-h2" style="color: red;">work in progress</h3>
+      <div class="main-wrapper">
+        <ol class="font-text">
+          <li>DCI-Orientierungskurs</li>
+        </ol>
+      </div>
+    </div>
+    <!--  contact me -->
+    <div class="sp-wrapper5">
+      <h2 class="font-h2">
+        <u style="color: white;"> contact me</u>
+      </h2>
+      <div class="main-wrapper">
+        <form style="margin-left: 1rem; margin-right: 2rem;">
+          <input
+            id="top-button"
+            name="name"
+            type="text"
+            class="feedback-input"
+            placeholder="Name"
+          />
+          <input
+            name="email"
+            type="text"
+            class="feedback-input"
+            placeholder="Email"
+          />
+          <textarea
+            name="text"
+            class="feedback-input"
+            placeholder="Comment"
+          ></textarea>
+          <input type="submit" value="contact me" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<footer></footer>
 
-.sp-wrapper2 {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-  /* background-position-x: 80%; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-direction: column;
-}
-
-.box-wrapper-logo {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.logo-wrapper {
-  display: flex;
-  height: 50px;
-  width: 50px;
-}
-
-.sp-wrapper3 {
-  display: flex;
-  background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
-  height: 100vh;
-  width: 100vw;
-  /* background-color: green; */
-  /* background-position-x: 80%; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-direction: column;
-}
-
-.sp-wrapper4 {
-  display: flex;
-  /* height: 150vh; */
-  width: 100vw;
-  /* background-image: url(/Ich-background.JPG); */
-  background-position-x: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-direction: column;
-}
-
-.image-wrapper1 {
-  display: flex;
-  height: 75vh;
-  width: 100vw;
-  background-image: url(Lacrosse.jpg);
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-direction: column;
-}
-
-.image-wrapper2 {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  background-image: url(Ich-background.JPG);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-direction: column;
-}
-
-.sp-wrapper5 {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  background-image: url(Stifte.jpeg);
-  background-position-x: 50%;
-  background-position-y: 20%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-direction: column;
-}
-
-.box-wrapper1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.nav-1 {
-  justify-content: center;
-  align-items: center;
-  color: white;
-  display: flex;
-  background-color: transparent;
-  margin: 3rem;
-  width: 1vw;
-}
-
-.main-wrapper {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  background-color: transparent;
-  color: whitesmoke;
-  height: 80vh;
-}
-
-.main-wrapper1 {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  background-color: transparent;
-  color: whitesmoke;
-  height: 80vh;
-}
-.font-1 {
-  font-size: 7vh;
-  font-weight: 800;
-  margin-left: 11%;
-  text-shadow: 1px 1px 18px white;
-}
-
-.font-2 {
-  font-size: 4vh;
-  font-weight: 800;
-  margin-left: 11%;
-  /* text-shadow: 5px 4px 10px white; */
-}
-
-.font-h2 {
-  color: black;
-  font-size: 4vh;
-  font-weight: 800;
-  text-align: center;
-}
-/* Buttons */
-.button-wrapper {
-  justify-content: center;
-  display: flex;
-  text-align: center;
-  border: white 5px;
-  border-radius: 3rem;
-  border-color: white;
-  background-color: transparent;
-  color: white;
-  padding: 4rem;
-  margin-bottom: 5rem;
-}
-
-.font-button {
-  color: white;
-  font-size: 4vh;
-  font-weight: 800;
-  text-align: center;
-}
-
-.font-text {
-  color: black;
-  font-size: 2vh;
-  font-weight: 500;
-  text-align: center;
-}
-
-.font-text2 {
-  color: white;
-  font-size: 5vh;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 4vh;
-}
-
-.font-text3 {
-  color: white;
-  font-size: 5vh;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 25vh;
-}
-
-.font-text4 {
-  color: black;
-
-  font-size: 5vh;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 5vh;
-  text-shadow: 1px 1px 7px white;
-}
-
-.font-text5 {
-  color: black;
-  font-size: 5vh;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 30vh;
-  text-shadow: 1px 1px 7px white;
-}
-
-.now-link {
-  text-decoration: none;
-}
-
-/* beim auswählen des "linkes" diese farbe annehmen */
-.now-link:visited {
-  color: white;
-}
-
-.liste {
-  text-align: left;
-  line-height: 1.5rem;
-}
-
-/* Button */
-
-form {
-  max-width: 420px;
-  margin: 50px auto;
-}
-
-.feedback-input {
-  color: black;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border: 2px solid white;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  outline: 0;
-}
-
-.feedback-input:focus {
-  border: 2px solid #cc4949;
-}
-
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize: vertical;
-}
-
-[type="submit"] {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  width: 100%;
-  background: white;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  color: black;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 0.3s;
-  margin-top: -4px;
-  font-weight: 700;
-}
-[type="submit"]:hover {
-  background: #cc4949;
-}
-
-.linke-img-wrapper {
-  display: flex;
-  flex-direction: row;
-  height: 5rem;
-  width: 5rem;
-  background-color: green;
-}
-/* MEDIA-Gruppen */
-@media (min-width: 900px) {
-  .sp-wrapper1 {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    background-image: url(Ich-desktop.JPG);
-    background-position-x: 50%;
-    background-position-y: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-direction: column;
-  }
-  .font-1 {
-    font-size: 7vh;
-    font-weight: 800;
-    margin-left: 11%;
-    text-shadow: 1px 1px 18px white;
-  }
-
-  .image-wrapper2 {
-    background-color: hsl(7, 5%, 10%);
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    background-image: url(Ich-background.JPG);
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    flex-direction: column;
-  }
-
-  .image-wrapper1 {
-    display: flex;
-    height: 50%;
-    width: 100vw;
-    background-image: url(Lacrosse.jpg);
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat;
-    flex-direction: column;
-  }
-}
