@@ -7,7 +7,7 @@ body {
   display: flex;
   height: 100vh;
   width: 100vw;
-  background-image: url(/Lampe-klein.jpeg);
+  background-image: url(Lampe-klein.jpeg);
   background-position-x: 80%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body {
   display: flex;
   height: 150vh;
   width: 100vw;
-  background-image: url(/Ich-background.JPG);
+  background-image: url(Ich-background.JPG);
   background-position-x: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,7 +63,7 @@ body {
   display: flex;
   height: 50%;
   width: 100vw;
-  background-image: url(/Lacrosse.jpg);
+  background-image: url(Lacrosse.jpg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body {
   display: flex;
   height: 100vh;
   width: 100vw;
-  background-image: url(/Ich-background.JPG);
+  background-image: url(Ich-background.JPG);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
