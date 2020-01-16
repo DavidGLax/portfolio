@@ -131,6 +131,7 @@ body {
   font-size: 7vh;
   font-weight: 800;
   margin-left: 11%;
+  margin-top: 14rem;
   text-shadow: 1px 1px 18px white;
 }
 
@@ -284,6 +285,7 @@ textarea {
   width: 5rem;
   background-color: green;
 }
+
 /* MEDIA-Gruppen */
 @media (min-width: 900px) {
   .sp-wrapper1 {
