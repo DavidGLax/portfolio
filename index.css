@@ -63,7 +63,7 @@ body {
   display: flex;
   height: 75vh;
   width: 100vw;
-  background-image: url(/Lacrosse.jpg);
+  background-image: url(Lacrosse.jpg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
