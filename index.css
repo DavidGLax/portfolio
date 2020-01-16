@@ -38,7 +38,7 @@ body {
 
 .sp-wrapper3 {
   display: flex;
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
   height: 100vh;
   width: 100vw;
   /* background-color: green; */
@@ -50,9 +50,9 @@ body {
 
 .sp-wrapper4 {
   display: flex;
-  height: 150vh;
+  /* height: 150vh; */
   width: 100vw;
-  background-image: url(Ich-background.JPG);
+  /* background-image: url(/Ich-background.JPG); */
   background-position-x: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,9 +61,9 @@ body {
 
 .image-wrapper1 {
   display: flex;
-  height: 50%;
+  height: 75vh;
   width: 100vw;
-  background-image: url(Lacrosse.jpg);
+  background-image: url(/Lacrosse.jpg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-image: url(Ich-background.JPG);
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -85,7 +85,7 @@ body {
   display: flex;
   height: 100vh;
   width: 100vw;
-  background-image: url(/Stifte.jpeg);
+  background-image: url(Stifte.jpeg);
   background-position-x: 50%;
   background-position-y: 20%;
   background-size: cover;
@@ -158,6 +158,7 @@ body {
   background-color: transparent;
   color: white;
   padding: 4rem;
+  margin-bottom: 5rem;
 }
 
 .font-button {
@@ -274,4 +275,55 @@ textarea {
 }
 [type="submit"]:hover {
   background: #cc4949;
+}
+
+.linke-img-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  width: 5rem;
+  background-color: green;
+}
+/* MEDIA-Gruppen */
+@media (min-width: 900px) {
+  .sp-wrapper1 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Ich-desktop.JPG);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+  .font-1 {
+    font-size: 7vh;
+    font-weight: 800;
+    margin-left: 11%;
+    text-shadow: 1px 1px 18px white;
+  }
+
+  .image-wrapper2 {
+    background-color: hsl(7, 5%, 10%);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Ich-background.JPG);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+
+  .image-wrapper1 {
+    display: flex;
+    height: 50%;
+    width: 100vw;
+    background-image: url(Lacrosse.jpg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
 }
