@@ -1,0 +1,31 @@
+.body-handy {
+  width: 100vp;
+  height: 100vp;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-wrapper1 {
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  background-color: blue;
+}
+
+.box-wrapper2 {
+  width: 100vw;
+  height: 60vh;
+  background-color: green;
+}
+.box-wrapper3 {
+  width: 100vw;
+  height: 20vh;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+}
+
+.box-wrapper-imge {
+  width: 20vw;
+  height: 20vh;
+}
